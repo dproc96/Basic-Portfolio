@@ -50,6 +50,10 @@ a {
     color: #999999;
 }
 
+a:hover {
+    color: #333333;
+}
+
 p {
     padding: 10px;
 }
