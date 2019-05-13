@@ -61,6 +61,15 @@ footer p {
     font-size: 50%;
 }
 
+form * {
+    display: block;
+}
+
+form label {
+    padding: 0px 0px 5px 0px;
+    color: #666666;
+}
+
 .heading--content {
     width: 960px;
     display: block;
@@ -79,6 +88,7 @@ footer p {
     margin: 20px auto 75px auto;
     background-color: #ffffff;
     padding: 20px;
+    border: 1px solid #dddddd;
 }
 
 .body--content::after {
@@ -123,8 +133,21 @@ footer p {
     color: #ffffff;
 }
 
+.form--input {
+    width: 900px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
 #profile {
     width: 270px;
     float: left;
     margin-right: 15px;
+}
+
+#button-submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 10px 30px 10px 30px;
+    border-width: 1px;
 }
